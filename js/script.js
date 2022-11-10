@@ -37,7 +37,6 @@ const cambiarPrecio = (mascota, nuevoPrecio) => {
 }
 
 const venderMascota = (mascota) =>{
-
     mascotas = mascota
 }
 //MUESTRO TODAS LAS MASCOTAS
@@ -49,5 +48,8 @@ cambiarPrecio(mascotas.findIndex(mascotas => mascotas.nombre == "Chuki"), 600)
 mostarMascotas(mascotas.filter(mascotas => mascotas.nombre == "Chuki"))
 //VENDO A LA MASCOTA
 venderMascota(mascotas.filter(mascotas => mascotas.nombre != "Chuki"))
+console.log(mascotas)
+//mostrar por tipo de animal (reutilizando el método de vender)
+venderMascota(mascotas.filter(mascotas => mascotas.tipo == "Perro"))
 console.log(mascotas)
 
