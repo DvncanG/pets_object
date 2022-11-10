@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+}
+
+.caja1 {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 3px solid white;
+    transition: background-color 1.5s ease, border 2s;
+}
+
+.caja2 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 3px solid white;
+    transition: background-color 1.5s ease, border 2s;
+}
+
+.caja3 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 3px solid white;
+    transition: background-color 1.5s ease, border 2s;
+}
+
+.caja4 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 3px solid white;
+    transition: background-color 1.5s ease, border 2s;
+}
+
+.caja5 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 3px solid white;
+    transition: background-color 1.5s ease, border 2s;
+}
+
+.caja1:hover {
+    background-color: yellow;
+    border: 3px solid brown;
+}
+
+.caja2:hover {
+    background-color: green;
+    border: 3px solid brown;
+}
+
+.caja3:hover {
+    background-color: purple;
+    border: 3px solid brown;
+}
+
+.caja4:hover {
+    background-color: royalblue;
+    border: 3px solid brown;
+}
+.caja5:hover{
+    background-color: beige;
+    border: 3px solid brown;
+    }
+.caja6{
+    position: relative;
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+    transition: left 0.5s;
+    left: 0;
+}
+.caja6:hover{
+    left: 90px;
+}
+.caja7{
+    background-color: yellowgreen;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    transition: transform 2s;
+}
+.caja7:hover{
+    transform: translate(40px) rotate(360deg);
+}
+.caja8{
+ background-color: teal;
+ width: 200px;
+ height: 200px;
+ transition: transform 2s;
+ position: relative;   
+}
+.caja8:hover{
+    transform: translate(100px) rotateX(500deg) rotateZ(90deg) scale(1.5);
+}
